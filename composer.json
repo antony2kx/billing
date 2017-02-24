@@ -1,0 +1,36 @@
+{
+    "name": "tylercubell/billing",
+    "description": "A general purpose interface to Stripe that's optimized for Laravel 5 SaaS applications.",
+    "keywords": ["tylercubell", "stripe", "billing"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tyler Cubell",
+            "email": "hello@tylercubell.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": "~5.3",
+        "illuminate/support": "~5.3",
+        "nesbot/carbon": "~1.0",
+        "stripe/stripe-php": "~3.0",
+        "symfony/http-kernel": "~2.7|~3.0",
+        "symfony/intl": "~3.2",
+    },
+    "require-dev": {
+        "illuminate/routing": "~5.3",
+        "illuminate/http": "~5.3",
+        "illuminate/view": "~5.3",
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0",
+        "vlucas/phpdotenv": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tylercubell\\Billing\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
