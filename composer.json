@@ -16,7 +16,7 @@
         "nesbot/carbon": "~1.0",
         "stripe/stripe-php": "~3.0",
         "symfony/http-kernel": "~2.7|~3.0",
-        "symfony/intl": "~3.2",
+        "symfony/intl": "~3.2"
     },
     "require-dev": {
         "illuminate/routing": "~5.3",
